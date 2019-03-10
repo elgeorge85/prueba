@@ -1,0 +1,23 @@
+{{define "grid"}}
+
+    <div class="grid"> <!-- contenedor -->
+        <table id="tabla" class="tabla">
+            <thead id="encabezadoTabla" class="table table-striped">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">DNI</th>
+                <th scope="col">Email</th>
+                <th scope="col">Validado</th>
+                <th scope="col">#</th>
+            </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+
+                 {{template "rellenrGrid"}}
+
+            </tbody>
+        </table>
+    </div>
+
+{{end}}

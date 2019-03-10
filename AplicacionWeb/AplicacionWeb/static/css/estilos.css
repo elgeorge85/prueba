@@ -1,0 +1,83 @@
+h1{
+ text-align: center;
+}
+
+#login{
+ width: 80%;
+ padding: 5px;
+ margin-left: 5%;
+}
+
+#divFormulario{
+ padding-left: 10%;
+ padding-top: 5%;
+}
+
+#divFormulario{
+ display: flex;
+ border-radius: 10px;
+ margin-left: 10%;
+ margin-top: 5%;
+ width: 80%;
+
+ border-bottom: 2px black solid;
+ border-left: 2px black solid;
+ border-right: 2px black solid;
+ border-top: 2px black solid;
+ padding: 5%;
+
+}
+
+#muestraCliente{
+ border-radius: 10px;
+ margin: 15px 15px 15px 15px ;
+ width: 90%;
+ height: 100%;
+ border-bottom: 2px black solid;
+ border-left: 2px black solid;
+ border-right: 2px black solid;
+ border-top: 2px black solid;
+ padding: 5px;
+}
+
+#datosCliente{
+ float: left;
+ margin-left: 10%;
+ margin-top: 10px;
+ width: 35%;
+ height: 100%;
+ padding: 10px;
+}
+
+#fotosCliente{
+ float: right;
+ margin-left: 10%;
+ margin-top: 10px;
+ width: 55%;
+ height: 100%;
+}
+
+#filtro{
+ width: 90%;
+ height: auto;
+ padding: 10px;
+ margin-left: 7%;
+}
+
+#tabla{
+ width: 90%;
+ margin-left: 7%;
+ align-items: center;
+ align-content: center;
+}
+
+#encabezadoTabla{
+ width: 100%;
+ text-align: center;
+}
+
+#cuerpoTabla{
+ width: 100%;
+ text-align: center;
+}
+

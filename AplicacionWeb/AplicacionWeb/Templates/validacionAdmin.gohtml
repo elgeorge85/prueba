@@ -1,0 +1,18 @@
+{{template "header"}}
+
+<h1>Validacion del cliente</h1>
+
+<div id="contenido">
+    <div id="filtro" class="input-group input-group-sm mb-3">
+        <form id="formFiltro">
+            <input id="filtroGrid" placeholder="Buscar">
+            <input type="checkbox" > Clientes no validados.
+        </form>
+    </div>
+    <div id="grid">
+        {{template "grid"}}
+    </div>
+
+</div>
+
+{{template "footer"}}

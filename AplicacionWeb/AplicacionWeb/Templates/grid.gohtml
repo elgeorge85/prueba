@@ -1,0 +1,38 @@
+{{define "grid"}}
+
+    <div class="grid"> <!-- contenedor -->
+        <table id="tabla" class="tabla">
+            <thead id="encabezadoTabla" class="table table-striped">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">DNI</th>
+                <th scope="col">Email</th>
+                <th scope="col">Validado</th>
+                <th scope="col">#</th>
+            </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+
+            <tr>
+                <td>Voldemort</td>
+                <td>puigdemort</td>
+                <td>12345678X</td>
+                <td>email@hola.es</td>
+                <td>No</td>
+                <td><a href="cliente" class="btn btn-info">Ver</a></td>
+            </tr>
+            <tr>
+                <td>Condemor</td>
+                <td>Chiquito</td>
+                <td>12345678Z</td>
+                <td>chiquito@delacalzada.es</td>
+                <td>Si</td>
+                <td><a href="cliente" class="btn btn-info">Ver</a></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+{{end}}

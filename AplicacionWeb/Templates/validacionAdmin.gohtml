@@ -10,9 +10,33 @@
         </form>
     </div>
     <div id="grid">
-        {{template "grid"}}
-    </div>
+            <table id="tabla" class="tabla">
+                <thead id="encabezadoTabla" class="table table-striped">
+                <tr>
+                    <th>Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">DNI</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Validado</th>
+                    <th scope="col">#</th>
+                </tr>
+                </thead>
+                <tbody id="cuerpoTabla" class="table table-striped">
 
+                    {{ range . }}
+                        <tr>
+                            <td>{{ .nomb }}</td>
+                            <td>{{ .ape }}</td>
+                            <td>{{ .dni }}</td>
+                            <td>{{ .ema }}</td>
+                            <td>{{ .val }}</td>
+                            <td><a href="/cliente?id={{ .id }}">Ver</a><td>
+                        </tr>
+                    {{end}}
+
+                </tbody>
+            </table>
+    </div>
 </div>
 
 {{template "footer"}}
